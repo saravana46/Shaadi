@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-Shaadi/Pods-Shaadi-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/Shuffle-iOS/Shuffle_iOS.framework
+${BUILT_PRODUCTS_DIR}/TinderSwipeView/TinderSwipeView.framework

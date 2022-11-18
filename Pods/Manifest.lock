@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - ObjectMapper (3.5.3)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - Shuffle-iOS (0.5.0)
+  - TinderSwipeView (1.1.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - SDWebImage
+  - Shuffle-iOS
+  - TinderSwipeView (~> 1.1.8)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - ObjectMapper
+    - SDWebImage
+    - Shuffle-iOS
+    - TinderSwipeView
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  Shuffle-iOS: ff33658fb1e5eebd6a4724c156473e63754be9cb
+  TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
+
+PODFILE CHECKSUM: 97c2b424c811cba32aaa5c82ef5b9c5caecfd177
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1854EF10292765760012B000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF0F292765760012B000 /* AppDelegate.swift */; };
+		1854EF14292765760012B000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF13292765760012B000 /* ViewController.swift */; };
+		1854EF17292765760012B000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1854EF15292765760012B000 /* Main.storyboard */; };
+		1854EF1A292765760012B000 /* Shaadi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF18292765760012B000 /* Shaadi.xcdatamodeld */; };
+		1854EF1C292765770012B000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854EF1B292765770012B000 /* Assets.xcassets */; };
+		1854EF1F292765770012B000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1854EF1D292765770012B000 /* LaunchScreen.storyboard */; };
+		1854EF3029277C1D0012B000 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF2F29277C1D0012B000 /* Protocol.swift */; };
+		1854EF3229277C260012B000 /* Intractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF3129277C260012B000 /* Intractor.swift */; };
+		1854EF3429277C300012B000 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF3329277C300012B000 /* Presenter.swift */; };
+		1854EF3629277C420012B000 /* ModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF3529277C420012B000 /* ModelEntity.swift */; };
+		1854EF3829277C4C0012B000 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF3729277C4C0012B000 /* Router.swift */; };
+		1854EF3A2927986A0012B000 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF392927986A0012B000 /* Constants.swift */; };
+		1854EF3D2927BD8C0012B000 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EF3B2927BD8C0012B000 /* ListTableViewCell.swift */; };
+		1854EF3E2927BD8C0012B000 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1854EF3C2927BD8C0012B000 /* ListTableViewCell.xib */; };
+		19430770F0CCF06031C90E72 /* Pods_Shaadi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F6E3648235E4A7FAB64EC4 /* Pods_Shaadi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F6E3648235E4A7FAB64EC4 /* Pods_Shaadi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shaadi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1854EF0C292765760012B000 /* Shaadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shaadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1854EF0F292765760012B000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1854EF13292765760012B000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1854EF16292765760012B000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1854EF19292765760012B000 /* Shaadi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shaadi.xcdatamodel; sourceTree = "<group>"; };
+		1854EF1B292765770012B000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1854EF1E292765770012B000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1854EF20292765770012B000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1854EF2F29277C1D0012B000 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		1854EF3129277C260012B000 /* Intractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intractor.swift; sourceTree = "<group>"; };
+		1854EF3329277C300012B000 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		1854EF3529277C420012B000 /* ModelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEntity.swift; sourceTree = "<group>"; };
+		1854EF3729277C4C0012B000 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		1854EF392927986A0012B000 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1854EF3B2927BD8C0012B000 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		1854EF3C2927BD8C0012B000 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		4B58F7BC42A1C6CDB408870C /* Pods-Shaadi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shaadi.debug.xcconfig"; path = "Target Support Files/Pods-Shaadi/Pods-Shaadi.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0FBE303B9A6729A9AC4708 /* Pods-Shaadi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shaadi.release.xcconfig"; path = "Target Support Files/Pods-Shaadi/Pods-Shaadi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1854EF09292765760012B000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19430770F0CCF06031C90E72 /* Pods_Shaadi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1854EF03292765760012B000 = {
+			isa = PBXGroup;
+			children = (
+				1854EF0E292765760012B000 /* Shaadi */,
+				1854EF0D292765760012B000 /* Products */,
+				8B627E3FA084486B7E08AC32 /* Pods */,
+				3CA521DAAF5F52EF91DA825A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1854EF0D292765760012B000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF0C292765760012B000 /* Shaadi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1854EF0E292765760012B000 /* Shaadi */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF2D29277B860012B000 /* Common */,
+				1854EF2629277B3A0012B000 /* VIPER */,
+				1854EF2E29277BBD0012B000 /* CoreData */,
+			);
+			path = Shaadi;
+			sourceTree = "<group>";
+		};
+		1854EF2629277B3A0012B000 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF2C29277B6C0012B000 /* Protocol */,
+				1854EF2B29277B660012B000 /* View */,
+				1854EF2A29277B5D0012B000 /* Intractor */,
+				1854EF2929277B530012B000 /* Presenter */,
+				1854EF2829277B4B0012B000 /* Entity */,
+				1854EF2729277B430012B000 /* Router */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		1854EF2729277B430012B000 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF3729277C4C0012B000 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1854EF2829277B4B0012B000 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF3529277C420012B000 /* ModelEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1854EF2929277B530012B000 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF3329277C300012B000 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1854EF2A29277B5D0012B000 /* Intractor */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF3129277C260012B000 /* Intractor.swift */,
+			);
+			path = Intractor;
+			sourceTree = "<group>";
+		};
+		1854EF2B29277B660012B000 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF13292765760012B000 /* ViewController.swift */,
+				1854EF15292765760012B000 /* Main.storyboard */,
+				1854EF3B2927BD8C0012B000 /* ListTableViewCell.swift */,
+				1854EF3C2927BD8C0012B000 /* ListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1854EF2C29277B6C0012B000 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF2F29277C1D0012B000 /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1854EF2D29277B860012B000 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF0F292765760012B000 /* AppDelegate.swift */,
+				1854EF1B292765770012B000 /* Assets.xcassets */,
+				1854EF1D292765770012B000 /* LaunchScreen.storyboard */,
+				1854EF20292765770012B000 /* Info.plist */,
+				1854EF392927986A0012B000 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1854EF2E29277BBD0012B000 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1854EF18292765760012B000 /* Shaadi.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3CA521DAAF5F52EF91DA825A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F6E3648235E4A7FAB64EC4 /* Pods_Shaadi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B627E3FA084486B7E08AC32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B58F7BC42A1C6CDB408870C /* Pods-Shaadi.debug.xcconfig */,
+				5E0FBE303B9A6729A9AC4708 /* Pods-Shaadi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1854EF0B292765760012B000 /* Shaadi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1854EF23292765770012B000 /* Build configuration list for PBXNativeTarget "Shaadi" */;
+			buildPhases = (
+				462B5154E62CABA9793AEA3D /* [CP] Check Pods Manifest.lock */,
+				1854EF08292765760012B000 /* Sources */,
+				1854EF09292765760012B000 /* Frameworks */,
+				1854EF0A292765760012B000 /* Resources */,
+				45AE3EFD9AE32C35D8EEAFD5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shaadi;
+			productName = Shaadi;
+			productReference = 1854EF0C292765760012B000 /* Shaadi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1854EF04292765760012B000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1854EF0B292765760012B000 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1854EF07292765760012B000 /* Build configuration list for PBXProject "Shaadi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1854EF03292765760012B000;
+			productRefGroup = 1854EF0D292765760012B000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1854EF0B292765760012B000 /* Shaadi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1854EF0A292765760012B000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854EF1F292765770012B000 /* LaunchScreen.storyboard in Resources */,
+				1854EF3E2927BD8C0012B000 /* ListTableViewCell.xib in Resources */,
+				1854EF1C292765770012B000 /* Assets.xcassets in Resources */,
+				1854EF17292765760012B000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45AE3EFD9AE32C35D8EEAFD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shaadi/Pods-Shaadi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shaadi/Pods-Shaadi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shaadi/Pods-Shaadi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		462B5154E62CABA9793AEA3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shaadi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1854EF08292765760012B000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854EF3829277C4C0012B000 /* Router.swift in Sources */,
+				1854EF3629277C420012B000 /* ModelEntity.swift in Sources */,
+				1854EF3429277C300012B000 /* Presenter.swift in Sources */,
+				1854EF14292765760012B000 /* ViewController.swift in Sources */,
+				1854EF1A292765760012B000 /* Shaadi.xcdatamodeld in Sources */,
+				1854EF10292765760012B000 /* AppDelegate.swift in Sources */,
+				1854EF3229277C260012B000 /* Intractor.swift in Sources */,
+				1854EF3029277C1D0012B000 /* Protocol.swift in Sources */,
+				1854EF3A2927986A0012B000 /* Constants.swift in Sources */,
+				1854EF3D2927BD8C0012B000 /* ListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1854EF15292765760012B000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1854EF16292765760012B000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1854EF1D292765770012B000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1854EF1E292765770012B000 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1854EF21292765770012B000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1854EF22292765770012B000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1854EF24292765770012B000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B58F7BC42A1C6CDB408870C /* Pods-Shaadi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/apple/Desktop/Saravana/Shaadi/Shaadi/Common/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.shaadi.Shaadi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1854EF25292765770012B000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E0FBE303B9A6729A9AC4708 /* Pods-Shaadi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/apple/Desktop/Saravana/Shaadi/Shaadi/Common/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.shaadi.Shaadi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1854EF07292765760012B000 /* Build configuration list for PBXProject "Shaadi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854EF21292765770012B000 /* Debug */,
+				1854EF22292765770012B000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1854EF23292765770012B000 /* Build configuration list for PBXNativeTarget "Shaadi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854EF24292765770012B000 /* Debug */,
+				1854EF25292765770012B000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1854EF18292765760012B000 /* Shaadi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1854EF19292765760012B000 /* Shaadi.xcdatamodel */,
+			);
+			currentVersion = 1854EF19292765760012B000 /* Shaadi.xcdatamodel */;
+			path = Shaadi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1854EF04292765760012B000 /* Project object */;
+}
